@@ -9,7 +9,25 @@
 
 // Answer:
 
-function capitalizeWord(word) {
-    const otherWord = word.charAt(0).toUpperCase() + word.slice(1);
-    return otherWord;
-  }
+// function capitalizeWord(word) {
+//     const otherWord = word.charAt(0).toUpperCase() + word.slice(1);
+//     return otherWord;
+//   }
+
+
+// Second challenge:
+// Name: Convert a string to an array
+
+// Instructions:
+// Write a function to split a string and convert it into an array of words.
+
+// Examples (Input -> Output):
+// * "Robin Singh" ==> ["Robin", "Singh"]
+
+// * "I love arrays they are my favorite" ==> ["I", "love", "arrays", "they", "are", "my", "favorite"]
+
+// Answer:
+
+function stringToArray(string){
+    return string.split(" ")
+    }
