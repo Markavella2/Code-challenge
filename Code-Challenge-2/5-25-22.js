@@ -5,7 +5,11 @@
 // [1, 2, 3, 4] => 1 * 2 * 3 * 4 = 24
 
 // Answer:
-function grow(x){
-    const answer = x.reduce((a,c) => a*c,1)
-    return answer
-    }
+// function grow(x){
+//     const answer = x.reduce((a,c) => a*c,1)
+//     return answer
+//     }
+
+
+// Answer Refactored:
+const grow = x => x.reduce((a,c) => a*c,1)
