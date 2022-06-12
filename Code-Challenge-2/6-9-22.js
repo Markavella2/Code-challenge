@@ -19,6 +19,10 @@
 // Array's length > 2.
 
 // Answer:
-function toCsvText(array) {
-    return array.join('\n')
- }
+// function toCsvText(array) {
+//     return array.join('\n')
+//  }
+
+
+//  Refactored:
+ const toCsvText = array => array.join('\n')
