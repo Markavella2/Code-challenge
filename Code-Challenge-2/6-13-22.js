@@ -20,7 +20,11 @@
 
 // Answer:
 
-function stairsIn20(s){
-  const newArr = s.flat()
-  return newArr.reduce((a,c) => a+c,0) *20
-}
+// function stairsIn20(s){
+//   const newArr = s.flat()
+//   return newArr.reduce((a,c) => a+c,0) *20
+// }
+
+// REFACTORED ANSWER:
+
+const stairsIn20 = s => s.flat().reduce((a,c) => a+c,0) *20
