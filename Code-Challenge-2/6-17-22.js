@@ -11,4 +11,17 @@
 // If the sperm contains the X chromosome, return "Congratulations! You're going to have a daughter."; If the sperm contains the Y chromosome, return "Congratulations! You're going to have a son.";
 
 // Answer:
-const chromosomeCheck = sperm => sperm == 'XY' ? "Congratulations! You're going to have a son." : "Congratulations! You're going to have a daughter."
+// const chromosomeCheck = sperm => sperm == 'XY' ? "Congratulations! You're going to have a son." : "Congratulations! You're going to have a daughter."
+
+
+
+// 2nd Codewar:
+
+// Name: Bin to Decimal
+
+// Instructions:Complete the function which converts a binary number (given as a string) to a decimal number.
+
+// Answer:
+function binToDec(bin){
+    return parseInt(bin,2)
+  }
