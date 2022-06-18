@@ -42,6 +42,29 @@
 
 //   Answer:
 
-  function sayHello(name) {
-    return `Hello, ${name}`
-  }
+//   function sayHello(name) {
+//     return `Hello, ${name}`
+//   }
+
+//   4th Codewar:
+
+//   Name: Double Char
+
+//   Instructions:
+//   Given a string, you have to return a string in which each character (case-sensitive) is repeated once.
+
+// Examples (Input -> Output):
+// * "String"      -> "SSttrriinngg"
+// * "Hello World" -> "HHeelllloo  WWoorrlldd"
+// * "1234!_ "     -> "11223344!!__  "
+// Good Luck!
+
+//   Answer:
+  function doubleChar(str) {
+    let ans = []
+    let newArr = str.split('').forEach(x => {
+      ans.push(x)
+      ans.push(x)
+    })
+    return ans.join('')
+    }
