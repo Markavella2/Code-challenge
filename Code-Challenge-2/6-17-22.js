@@ -22,6 +22,26 @@
 // Instructions:Complete the function which converts a binary number (given as a string) to a decimal number.
 
 // Answer:
-function binToDec(bin){
-    return parseInt(bin,2)
+// function binToDec(bin){
+//     return parseInt(bin,2)
+//   }
+
+
+
+//3rd Codewar:
+
+//   Name:Grasshopper - Debug sayHello
+
+//   Instructions:
+//   Debugging sayHello function
+//   The starship Enterprise has run into some problem when creating a program to greet everyone as they come aboard. It is your job to fix the code and get the program working again!
+  
+//   Example output:
+  
+//   Hello, Mr. Spock
+
+//   Answer:
+
+  function sayHello(name) {
+    return `Hello, ${name}`
   }
