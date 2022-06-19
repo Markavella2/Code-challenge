@@ -62,6 +62,19 @@
 
 // Answer:
 
-function expressionMatter(a, b, c) {
-    return Math.max(a+b+c, a*(b+c), a*b*c, a+b*c, (a+b)*c)
-    }
+// function expressionMatter(a, b, c) {
+//     return Math.max(a+b+c, a*(b+c), a*b*c, a+b*c, (a+b)*c)
+//     }
+
+
+
+// SECOND CODEWAR
+
+// Name: Function 2 - squaring an argument
+
+// Instructions:
+// Now you have to write a function that takes an argument and returns the square of it.
+
+// Answer:
+
+const square = num => num*num
