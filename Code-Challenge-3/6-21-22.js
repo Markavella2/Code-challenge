@@ -10,8 +10,14 @@
 
 // Answer:
 
-function aspectRatio(x,y){
-    const ans = Math.ceil(x=((16/9)*y))
-    return [ans, y]
-    }
+// function aspectRatio(x,y){
+//     const ans = Math.ceil(x=((16/9)*y))
+//     return [ans, y]
+//     }
+ 
     
+
+    //REFACTORED ANSWER
+
+    const aspectRatio = (x,y) => [Math.ceil(x=((16/9)*y)), y]
+
