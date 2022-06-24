@@ -26,10 +26,36 @@
 // If your name would be Jeong-Ho Aristotelis, ad would cost £600. 20 leters * 30 = 600 (Space counts as a letter).
 
 // Answer:
-function billboard(name, price = 30){
-    let ans=0;
-    for (let i=1; i<=name.length; i++){
-      ans += price
-    }
-    return ans
-    } 
+// function billboard(name, price = 30){
+//     let ans=0;
+//     for (let i=1; i<=name.length; i++){
+//       ans += price
+//     }
+//     return ans
+//     } 
+
+
+
+//     THIRD CODEWAR
+
+
+//     Name:
+//     What is between?
+
+//     Instructions:
+//     Complete the function that takes two integers (a, b, where a < b) and return an array of all integers between the input parameters, including them.
+
+//     For example:
+    
+//     a = 1
+//     b = 4
+//     --> [1, 2, 3, 4]
+
+//     Answer:
+function between(a, b) {
+  let ans = []
+  for (let i = a; i<=b; i++){
+    ans.push(i)
+  }
+  return ans
+}
