@@ -23,15 +23,38 @@
 
 
 // Answer:
-var humanYearsCatYearsDogYears = function(humanYears) {
-    let cy = 24+(humanYears-2)*4;
-    let dy = 24+(humanYears-2)*5;
-    if (humanYears == 1){
-       return [1,15,15]
-    }else if (humanYears == 2){
-       [2, 24, 24]
-    }else if (humanYears >= 3){
-       [humanYears, cy, dy]
+// var humanYearsCatYearsDogYears = function(humanYears) {
+//     let cy = 24+(humanYears-2)*4;
+//     let dy = 24+(humanYears-2)*5;
+//     if (humanYears == 1){
+//        return [1,15,15]
+//     }else if (humanYears == 2){
+//        [2, 24, 24]
+//     }else if (humanYears >= 3){
+//        [humanYears, cy, dy]
+//     }
+//     return [humanYears, cy, dy];
+//   }
+
+
+//   SECOND CODEWAR
+
+//   Name:
+//   Enumerable Magic #20 - Cascading Subsets
+
+//   Instructions:
+//   Create a method each_cons that accepts a list and a number n, and returns cascading subsets of the list of size n, like so:
+
+//   each_cons([1,2,3,4], 2)
+//     #=> [[1,2], [2,3], [3,4]]
+  
+//   each_cons([1,2,3,4], 3)
+//     #=> [[1,2,3],[2,3,4]]
+    
+//   As you can see, the lists are cascading; ie, they overlap, but never out of order.
+
+//   Answer:
+
+  function eachCons(array, n) {
+    return array.map((x,y) => array.slice(y, y+n)).filter((x => x.length == n))
     }
-    return [humanYears, cy, dy];
-  }
