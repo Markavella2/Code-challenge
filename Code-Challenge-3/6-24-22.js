@@ -76,10 +76,14 @@
 //     Floats with decimal part non equal to zero are considered UNeven for this kata.
 
 //     Answer:
-    function testEven(n) {
-        if (n%2==0){
-          return true
-        }else{
-          return false
-        }
-     }
+    // function testEven(n) {
+    //     if (n%2==0){
+    //       return true
+    //     }else{
+    //       return false
+    //     }
+    //  }
+
+    //  REFACTORED ANSWER:
+
+    const testEven = n => n%2==0
