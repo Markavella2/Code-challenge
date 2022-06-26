@@ -15,13 +15,24 @@
 // Input: 1,3,5,6,7,8 Output: 1,2,3,4,5,6,7,8
 
 // Answer:
-function pipeFix(numbers){
+// function pipeFix(numbers){
+//     let ans = []
+//     let min = numbers[0]
+//     let max = numbers[numbers.length-1]
+//     console.log(min, max)
+//     for (let i = min; i<=max; i++){
+//      ans.push(i)
+//     }
+//     return ans
+//   }
+
+
+  //REFACTORED ANSWER:
+
+  function pipeFix(numbers){
     let ans = []
-    let min = numbers[0]
-    let max = numbers[numbers.length-1]
-    console.log(min, max)
-    for (let i = min; i<=max; i++){
-     ans.push(i)
+      for (let i = numbers[0]; i<=numbers[numbers.length-1]; i++){
+      ans.push(i)
     }
-    return ans
-  }
+      return ans
+    }
