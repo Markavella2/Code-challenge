@@ -13,10 +13,15 @@
 
 // Answer:
 
-function index(array, n){
-    if (n >= array.length){
-      return -1
-    }else{
-      return array[n]**n
-    }
-  }
+// function index(array, n){
+//     if (n >= array.length){
+//       return -1
+//     }else{
+//       return array[n]**n
+//     }
+//   }
+
+
+//   REFACTORED ANSWER:
+
+  const index = (array,n) => n>=array.length ? -1 : array[n]**n
